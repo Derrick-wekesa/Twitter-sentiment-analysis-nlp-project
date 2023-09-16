@@ -70,7 +70,8 @@ To evaluate the performance of the NLP sentiment analysis model, I conducted tho
 4. our XGboost multiclass model achieved an overall accuracy of 67%
 
 # Visualizations
- ![sentiment Distribution Count](Desktop/Twitter-sentiment-analysis-nlp-project/sentiment D.png)
+ ![Sentiment Count Distribution](Desktop/Twitter-sentiment-analysis-nlp-project/Sentiment%20count%20D.PNG)
+
 
 
  # Findings
