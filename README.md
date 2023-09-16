@@ -54,7 +54,7 @@ b. Classification Models: I trained and evaluated several classification models 
 
 1.Logistic Regression Classifier for the binary classifier model
 
-2.Multinomial Naive Bayes , Linear SVC and XGBoost model for the multiclass classification model 
+2.Multinomial Naive Bayes , Linear SVM and XGBoost model for the multiclass classification model 
 
 
 c. Model Evaluation: For each model, we employed  accuracy for logistic regression model,multinommial NB anduy xg boost but for Linear SVC i used both classification report, accuracy score, f1 score, recall and precision to evaluate the model's ability to correctly predict sentiment.
@@ -65,12 +65,13 @@ d. Handling Class Imbalance: we tried to address this issue using synthetic Mino
 To evaluate the performance of the NLP sentiment analysis model, I conducted thorough testing and analysis using various evaluation metrics. The following evaluation results provide insights into the effectiveness of our approach:
 * Accuracy:
 1. The binary sentiment analysis model achieved an overall accuracy of 90% which surpused our trget of achieving 85%.
-2. The linear SVC model achieved an accuracy score of 91%
+2. The linear SVM model achieved an accuracy score of 91%
 3. The MultinomialNb multiclass model achieved an overall accuracy of 65%
 4. our XGboost multiclass model achieved an overall accuracy of 67%
 
 # Visualizations
- 
+ ![sentiment Distribution Count](Desktop/Twitter-sentiment-analysis-nlp-project/sentiment D.png)
+
 
  # Findings
 Most of the tweets were directed to no specific brand.
